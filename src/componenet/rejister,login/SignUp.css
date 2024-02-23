@@ -1,0 +1,53 @@
+.signupnavbarmain{
+    width: 100vw;
+    height:10vh;
+    background:yellow;
+    display: flex;
+    justify-content: space-between;
+}
+.signupnavbarmain h1{
+    color:blue;
+    padding-top: 0.5rem;
+    border-radius: 200px;
+    font-style:initial;
+    font-size: 75px;
+    font-weight: bold;
+}
+ .signupnavbarmain div{
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:30vw;
+ }
+ .signupnavbarmain div select{
+    padding: 10px;
+    border:none;
+    background: none;
+ }
+ .signupnavbarmain div select option{
+    padding: 20px;
+    background: blueviolet;
+ }
+ .loginmain{
+   display: flex;
+ }
+ .loginmain img{
+width:50vw;
+height:100vh;
+background: lightslategray;
+ }
+ .form{
+    width:50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .loginmain div input{
+
+   height:25px;
+  width:200px;
+  border-radius: 5rem;
+ }

@@ -1,0 +1,121 @@
+.firstmain{
+    display:flex;
+}
+.first1{
+    width:50vw;
+    height:100vh;
+    background:lightgray;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first1 button{
+    /* margin-top:2%;
+    margin-left: 3%; */
+    margin-bottom: 20px;
+    border:1px solid blue;
+    padding:10px;
+    border-radius:50rem;
+    font-size: large;
+}
+
+.first1 button:hover{
+background:lightblue;
+}
+.first1 button span{
+    color:blue;
+}
+.first1 line{
+    width: 200px;
+    height:2px;
+    background:red;
+    margin-right: 50%;
+}
+.first1 line div{
+    height: 2px;
+    background:black;
+    /* animation: App-logo-spin infinite 2s  reverse  ; */
+    animation: App-logo-spin infinite  1s alternate   ;
+    /* animation-timing-function: ease-out; */
+
+}
+
+
+@keyframes  App-logo-spin{
+    from {
+      width:20px;
+      /* transform: rotate(0deg); */
+    }
+    to {
+      width:200px;
+
+      /* transform: rotate(360deg); */
+    }
+  }
+.first1 h1{
+    /* color:red; */
+    font-size: 75px;
+    
+}
+.first1 h1 span{
+    color: blue;
+}
+.first1 p{
+    font-size: xx-large;
+}
+.first2{
+    width:50vw;
+    height:100vh;
+    background:lightcoral;
+}
+
+.secondMain{
+    display:flex;
+}
+.second1{
+    width:24%;
+    height:100vh;
+    background:darkblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.second1  img{
+    width:90%;
+    height:10%;
+    padding:20% 5%;
+    background: #0b5cff;
+}
+.second1 h1{
+    font-weight: bold;
+    font-size: xx-large;
+    color: #ffff;
+}
+.second1 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: 60vh;
+    margin-bottom: 10vh;
+}
+.second1 div button{
+    padding-top:5%;
+    padding-bottom:5%;
+    width:100%;
+    border-radius: 50rem;
+    border:2px solid #ffff;
+    color: #ffff;
+    background: darkblue;
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+.second1 div button span{
+    display: none;
+}
