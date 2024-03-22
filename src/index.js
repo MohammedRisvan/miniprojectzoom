@@ -4,14 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter}from "react-router-dom";
-import Appas from './componenet/home/popuu';
+// import Otp from './componenet/rejister,login/otp';
+// import Model from './componenet/home/web';
+// import Footer from './componenet/home/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-    {/* <App /> */}
-    <Appas/>
+    {/* <Footer/> */}
+    <App />
+    {/* <Appas/> */}
+    {/* <Model/> */}
     </BrowserRouter>
   </React.StrictMode>
 );

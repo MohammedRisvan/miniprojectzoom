@@ -2,36 +2,46 @@ import React from 'react'
 
 const Contactsales = () => {
   return (
-    <div>
-      <form className='bg-slate-300 h-full w-1/2 grid '>
+    <div className='w-screen h-screen bg-blue-200 flex items-center justify-center'>
+      <form className='bg-slate-300 h-full w-3/4 grid grid-cols-2  rounded-2xl'>
         <h1>Please enter your information</h1>
-        <label >Email: </label>
+        <h1> </h1>
+        <label >Email: 
         <input type='text' name='email'placeholder='example@gmail.com'/>
-        <label>Companey</label>
+        </label>
+        <label>Companey:
         <input type='text' name='companeyname'/>
-        <label>First name</label>
+        </label>
+        <label>First name
         <input type='text' name='firstname'/>
-        <label>LastName</label>
+        </label>
+        <label>LastName:
         <input type='text' name='lastname' pla/>
-        <label>Employ type</label>
+        </label>
+        <label>Employ type:
         <select>
             <option value="">select option</option>
             <option>2-10</option>
             <option>11-50</option>
             <option>51-250</option>
             </select>
-        <label>phone number</label>
+        </label>
+        <label>phone number:
         <input type='text' name='mobilenumber'/>
-        <label>country</label>
+        </label>
+        <label>country:
         <select>
             <option >Unighted state</option>
             <option>United  States</option>
         </select>
-        <label>Zip or postalcode</label>
+        </label>
+        <label>Zip or postalcode:
         <input type='text' name=''/>
-        <label>Additional information related to your business needs *</label>
+        </label>
+        <label>Additional information related to your business needs *
         <input type='text' name=''/>
-        <button type='submit'>Submit</button>
+        </label>
+        <button type='submit' className='px-3 py-2 w-1/4 h-1/4 rounded-xl bg-blue-500'>Submit</button>
       </form>
     </div>
   )
